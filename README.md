@@ -24,7 +24,7 @@ menu
 
 ⚡INSTALLATION🥀🔥
 
-```bash
+```
 git clone https://github.com/iddie09/slowdns-user-manager
 cd slowdns-user-manager
 bash install.sh
