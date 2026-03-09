@@ -29,11 +29,11 @@ Installation
 
 🟢Run the installer directly from GitHub:
 ```
-bash <(curl -s https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/ssh-manager/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/iddie09/ssh-manager/main/install.sh)
 ```
 🥀Or clone the repository:
 ```
-git clone https://github.com/YOUR_GITHUB_USERNAME/ssh-manager.git
+git clone https://github.com/iddie09/ssh-manager.git
 cd ssh-manager
 chmod +x install.sh
 bash install.sh
