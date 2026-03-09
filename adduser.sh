@@ -23,8 +23,8 @@ echo "$user $limit_mb 0" >> /etc/slowdns-manager/users.db
 
 iptables -N $user
 
-iptables -A OUTPUT -m owner --uid-owner $user -j $user
-iptables -A INPUT -m owner --uid-owner $user -j $user
+iptables -A OUTPUT -m owner --uid-owner $user -j RETURN
+iptables -N $user
 
 iptables -A $user -j RETURN
 
